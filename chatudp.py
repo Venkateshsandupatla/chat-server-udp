@@ -11,8 +11,8 @@ afn = socket.AF_INET
 #this is our socket
 s = socket.socket(afn,protocal)
 
-ip = "192.168.1.13"
-port = 1234
+ip = "192.168.1.13" # our ip 
+port = 1234 
 
 # binding our socket with ip and port
 s.bind( (ip,port) )
